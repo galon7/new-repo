@@ -9,7 +9,8 @@ body {
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 120px;
+  margin: 0 0 30px;
 }
 
 footer {
@@ -20,7 +21,7 @@ footer {
 }
 
 span {
-  font-size: 200px;
+  font-size: 150px;
   color: rgb(150, 0, 0);
 }
 
@@ -34,6 +35,10 @@ span {
   max-width: 140px;
 }
 
+iframe {
+  margin: 15px;
+}
+
 @media screen and (max-width: 980px) {
   h1 {
     font-size: 50px;
@@ -41,5 +46,17 @@ span {
 
   span {
     font-size: 60px;
+  }
+
+  iframe {
+    margin: 20px;
+    width: 350px;
+  }
+
+  .iframes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
