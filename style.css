@@ -1,3 +1,33 @@
-.h1 {
-  
+body {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+span {
+  font-size: 200px;
+  color: rgb(68, 68, 68);
+}
+
+.builtby {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.camelbear {
+  max-width: 120px;
 }
