@@ -31,3 +31,13 @@ span {
 .camelbear {
   max-width: 120px;
 }
+
+@media screen and (max-width: 980px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  span {
+    font-size: 60px;
+  }
+}
