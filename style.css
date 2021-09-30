@@ -38,6 +38,7 @@ span {
 iframe {
   margin: 15px;
 }
+
 @media screen and (max-width: 980px) {
   h1 {
     font-size: 50px;
@@ -45,5 +46,17 @@ iframe {
 
   span {
     font-size: 60px;
+  }
+
+  iframe {
+    margin: 20px;
+    width: 350px;
+  }
+
+  .iframes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
