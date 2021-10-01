@@ -1,0 +1,19 @@
+{
+  "name": "new-repo",
+  "version": "0.0.1",
+  "description": "Experiments project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galon7/new-repo.git"
+  },
+  "author": "Alon G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galon7/new-repo/issues"
+  },
+  "homepage": "https://github.com/galon7/new-repo#readme"
+}
